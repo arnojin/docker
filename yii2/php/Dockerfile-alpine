@@ -8,11 +8,8 @@ FROM php:${PHP_BASE_IMAGE_VERSION}
 RUN echo "http://mirrors.aliyun.com/alpine/v3.8/main/"      >  /etc/apk/repositories && \
     echo "http://mirrors.aliyun.com/alpine/v3.8/community/" >> /etc/apk/repositories
 
-# update repositories
-RUN apk --update
-
 # Install system packages & PHP extensions required for Yii 2.0 Framework
-RUN apk --virtual build-deps add \
+RUN apk --update --virtual build-deps add \
         autoconf \
         make \
         gcc \
