@@ -3,13 +3,13 @@
 
 
 DB_TYPE=${DB_TYPE:-'mysql'}
-DB_HOST=${DB_HOST:-'mysql'}
+DB_HOST=${DB_HOST:-'limesurvey-db'}
 DB_PORT=${DB_PORT:-'3306'}
 DB_SOCK=${DB_SOCK:-}
 DB_NAME=${DB_NAME:-'limesurvey'}
 DB_TABLE_PREFIX=${DB_TABLE_PREFIX:-'lime_'}
 DB_USERNAME=${DB_USERNAME:-'limesurvey'}
-DB_PASSWORD=${DB_PASSWORD:-}
+DB_PASSWORD=${DB_PASSWORD:-'limesurvey'}
 
 ADMIN_USER=${ADMIN_USER:-'admin'}
 ADMIN_NAME=${ADMIN_NAME:-'admin'}
