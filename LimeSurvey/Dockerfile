@@ -1,5 +1,5 @@
 FROM php:5.6.38-fpm-alpine
-LABEL maintainer="jinpeng@surveyplus.cn"
+LABEL maintainer="arnojin"
 ARG version='3.15.3+181108'
 
 # 修改apk源
