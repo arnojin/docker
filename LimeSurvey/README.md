@@ -1,5 +1,10 @@
 # 安装 LimeSurvey 3.15.3 181108
 
+    nginx 1.4.6
+    php 5.6.x
+    with php-fpm, mbstring, gd2 with freetype, imap, ldap, zip, zlib and databse drivers
+    mysql 5.5.50
+
 ```bash
 docker pull mysql:5.5.50
 docker pull php:5.6.38-fpm-alpine
